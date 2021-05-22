@@ -1,7 +1,7 @@
 (function (window){
-    let PENDING = 'pending'
-    let RESOLVED = 'resolved'
-    let REJECTED = 'rejected'
+    const PENDING = 'pending'
+    const RESOLVED = 'resolved'
+    const REJECTED = 'rejected'
     function Promise(executor){
         this.status = PENDING;
         this.data = undefined;
